@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif,helvetica;
+    scroll-behavior: smooth;
+}
+html,body{
+    background-color: #f2f2f2;
+    font-size: 16px;
+}
+.navbar{
+    position: fixed;
+    width: 100vw;
+    height: 5vw;
+    background-color: rgb(51,50,50);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 11%;
+}
+.nav{
+    display: flex;
+    gap: 2.9vw;
+}
+.nav > li {
+    list-style: none;
+}
+.logo>a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+.nav > li > a {
+    text-decoration: none;
+    font-size: 1.01rem;
+    color: white;
+    font-weight: 400;
+}
+.homepage{
+    width: 100%;
+    height: 100vh;
+    background: url(./bgImg.jpg);
+    background-size: cover;
+    background-position: center 65%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background-attachment: fixed;
+}
+.container{
+    width: 70%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.content{
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    align-items: center;
+    h1{
+        font-size: 3.7rem;
+        text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        font-weight: bold;
+    }
+    p{
+        font-size: 1.2rem;
+        width: 70%;
+        text-align: center;
+    }
+}
+.btn > button{
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    color: black;
+    font-weight: 400;
+    border: none;
+}
+.ourservices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 100px;
+    background-color: #F2F2F2;
+}
+.ourservices h2{
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.subourservices{
+    font-size: 1.2rem;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 15px;
+    margin-top: 50px;
+}
+
+.card > img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.card{
+    text-align: center;
+    width: calc(100% / 3 - 30px);
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.04);
+    background-color: white;
+    padding: 40px 15px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+.card h3{
+    font-weight: 800;
+
+}
+.card p{
+    font-size: 1em;
+    line-height: 20px;
+    margin-top: 5px;
+    letter-spacing: 0.7px;
+    padding:0 15px;
+}
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0 0;
+}
+
+section h2 {
+    font-size: 2rem;
+}
+
+section > p {
+    text-align: center;
+}
+.aboutcontent{
+    max-width: 1200px;
+    margin-top: 50px;
+}
+.aboutcontent > div > h3{
+    margin-bottom: 15px;
+}
+.aboutcontent > div > p{
+    margin-bottom: 20px;
+}
+.aboutcontent > div > ul{
+    margin-left: 20px;
+}
+.contact{
+    max-width: 1200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 300px;
+}
+.left{
+    line-height: 35px;
+}
+.leftItem > p > i{
+    margin-right: 1rem;
+    color: grey;
+}
+.right > form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right > form > input{
+    padding-left: 10px;
+    width: 500px;
+    height: 45px;
+    font-size: 1rem;
+}
+.right > form > textarea{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+.formBtn{
+    width: 150px;
+    font-size: 1rem;
+    padding: 8px 10px;
+    background-color: #333232;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,225 @@
+@font-face {
+  font-family: ndot;
+  src: url("./Ndot-55-DoenNkNm.ttf");
+}
+
+@font-face {
+  font-family: link;
+  src: url("./korataki-rg-3cf0d889-B6eTgmP5.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: #010100;
+  color: white;
+}
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px 0px 25px;
+}
+.logo {
+  position: relative;
+  width: 310px;
+}
+.nothing {
+  position: absolute;
+  top: 35px;
+  left: 73px;
+  font-family: ndot;
+  font-size: 3.5vw;
+}
+.search {
+  position: relative;
+  width: 300px;
+}
+input {
+  position: absolute;
+  top: 6vh;
+  left: 36vw;
+  width: 14vw;
+  height: 40px;
+  background-color: #000000;
+  border: none;
+  font-size: 18px;
+  color: #ffffffd9;
+  outline: none;
+}
+input::placeholder {
+  color: #ffffff81;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 40px;
+  img {
+    width: 150px;
+  }
+  .store {
+    position: absolute;
+    font-family: link;
+    font-size: 17px;
+    top: 14px;
+    left: 37px;
+  }
+  .support {
+    position: absolute;
+    font-family: link;
+    font-size: 16px;
+    top: 14px;
+    left: 14vw;
+  }
+  .community {
+    position: absolute;
+    font-family: link;
+    font-size: 15px;
+    top: 13px;
+    left: 25.9vw;
+  }
+}
+main {
+  position: relative;
+}
+.line-01 {
+  position: absolute;
+  background: white;
+  height: 2px;
+  width: 165px;
+  top: 5.5vh;
+  left: 18.3vw;
+  transform: rotate(35deg);
+}
+.line-02 {
+  position: absolute;
+  background: white;
+  height: 2.1px;
+  width: 228px;
+  top: 11.8vh;
+  left: 28vw;
+}
+.line-03 {
+  position: absolute;
+  background: white;
+  height: 2px;
+  width: 121px;
+  top: 16vh;
+  left: 42.3vw;
+  transform: rotate(31deg);
+}
+.line-04 {
+  position: absolute;
+  background: white;
+  height: 2.5px;
+  width: 50vw;
+  top: 20.2vh;
+  left: 49.5vw;
+}
+.line-05 {
+  position: absolute;
+  background: white;
+  height: 2px;
+  width: 220px;
+  top: 19.6vh;
+  left: 38.2vw;
+  transform: rotate(32deg);
+}
+.line-06 {
+  position: absolute;
+  background: white;
+  height: 2.5px;
+  width: 79px;
+  top: 27.4vh;
+  left: 51.3vw;
+}
+.line-07{
+  position: absolute;
+  background: white;
+  height: 2px;
+  width: 61px;
+  top: 30.5vh;
+  left: 55.8vw;
+  transform: rotate(47deg);
+}
+.line-08{
+  position: absolute;
+  background: white;
+  height: 2px;
+  width: 242px;
+  top:33.5vh;
+  left: 59vw;
+}
+.line-09{
+  position: absolute;
+  background: white;
+  height: 2px;
+  width: 72px;
+  top: 29.4vh;
+  right: 21.7vw;
+  transform: rotate(122deg);
+}
+.line-10 {
+  position: absolute;
+  background: white;
+  height: 2.1px;
+  width: 22.3vw;
+  top: 25.3vh;
+  right: 10px;
+}
+.line-11 {
+  position: absolute;
+  background: white;
+  height: 2.3px;
+  width: 44vw;
+  top: 72.5vh;
+  left: 0vw;
+}
+.line-12{
+    position: absolute;
+  background: white;
+  height: 2.5px;
+  width:70px;
+  top: 69.7vh;
+  left: 43.5vw;
+  transform: rotate(143deg);
+}
+.line-13{
+  position: absolute;
+  background: white;
+  height: 2.5px;
+  width: 52vw;
+  top: 67vh;
+  left: 47.5vw;
+}
+.heading{
+    position: absolute;
+    top: 35vh;
+    left: 3vw;
+    font-family: link;
+    font-size: 46px;
+    color: #999D9C;
+    font-weight: 100;
+    line-height: 10vh;
+    text-align: center;
+}
+.para{
+    position: absolute;
+    top: 65vh;
+    left: 8.5vw;
+    font-family: ndot;
+    color: #999D9C;
+    font-size: 25px;
+}

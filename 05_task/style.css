@@ -109,3 +109,63 @@ html,body{
     width: 270px;
     height: 350px;
 }
+.scroll-cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1.8rem;
+    overflow-x: auto;
+    padding: 10px;
+}
+.scroll-cards::-webkit-scrollbar {
+  display: none;
+}
+.scroll-cards > .card{
+    width: 220px;
+    height: 300px;
+    flex: 0 0 auto;
+ /* flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: auto; */
+    padding: 1rem;
+    img{
+        width: 80px;
+        height: 80px;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: 11px;
+        color: #666;
+        padding-block: 4px;
+    }
+    button{
+        padding: 7px 25px;
+        font-size: 11px;
+    }
+}
+.name-siddharth{
+    width: 100%;
+    text-align: center;
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzZseWFheXYyam1ybzFkOWxiMGpwazBvdGEwdjJsMWYwcnkwZzlmdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MBVRgrfOBPeH5zNWJU/giphy.gif);
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.name-siddharth > h1{
+    font-size: 7vw;
+    color: transparent;
+}
+footer{
+    width: 100%;
+    margin-top: 2rem;
+    height: 60px;
+    border-top: 1px solid #0000001a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+}
